@@ -11,7 +11,7 @@ spec:
   source:
     path: guestbook
     repoURL: "https://github.com/numa1985/argocd-test.git"
-    targetRevision: master
+    targetRevision: main
 
 
     
