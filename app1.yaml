@@ -12,6 +12,9 @@ spec:
     path: guestbook
     repoURL: "https://github.com/numa1985/argocd-test.git"
     targetRevision: main
+  syncPolicy:
+    syncOptions:
+      - CreateNamespace=true
 
 
     
